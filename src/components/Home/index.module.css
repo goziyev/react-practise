@@ -1,0 +1,19 @@
+.title{
+    margin-top: 80px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+}
+.link{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.routerLink{
+    color:red;
+    text-decoration: none;
+}

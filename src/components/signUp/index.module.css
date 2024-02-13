@@ -1,0 +1,131 @@
+.wrapper {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+  justify-content: space-between;
+}
+.formTitle {
+  color: rgb(37, 37, 37);
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.formDesc {
+  color: rgb(75, 75, 75);
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.logo {
+  margin-top: 25px;
+  margin-left: 90px;
+  margin-bottom: 20px;
+}
+.img img {
+  width: 700px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form label {
+  color: rgb(37, 37, 37);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.form input {
+  border: none;
+  padding: 10px;
+  align-items: center;
+  width: 327px;
+  outline: none;
+  border-radius: 8px;
+  background: rgb(243, 243, 243);
+}
+
+.form button {
+  margin-top: 20px;
+  border: none;
+  border-radius: 8px;
+  background: rgb(96, 122, 251);
+  width: 327px;
+  padding: 10px;
+  transition: all 0.5s ease;
+  color: white;
+  cursor: pointer;
+  background-size: 200% auto;
+  background-image: linear-gradient(
+    to right,
+    #314755 0%,
+    #26a0da 51%,
+    #314755 100%
+  );
+}
+.form button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+.companyDesc {
+  color: rgb(174, 174, 174);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 1200px) {
+  .img img {
+    width: 400px;
+  }
+  .wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .img img {
+    width: 350px;
+  }
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .img img {
+    width: 290px;
+  }
+  .form {
+    width: 300px;
+  }
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.link {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
